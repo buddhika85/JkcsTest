@@ -1,0 +1,12 @@
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\EF.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\EF.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,13 @@
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\bin\Debug\EF.dll.config
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\bin\Debug\EF.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\bin\Debug\EF.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\bin\Debug\EntityFramework.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\bin\Debug\EntityFramework.xml
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.Migrations.InitialDatabase.resources
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.Migrations.InitialDbPopulation.resources
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.Migrations.InitialEmployeeDataPopulation.resources
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.csproj.GenerateResource.Cache
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.pdb

@@ -1,0 +1,13 @@
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\EF.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\ViewModels.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\EF.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\ViewModels.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\BusinessLogic\obj\Debug\BusinessLogic.pdb

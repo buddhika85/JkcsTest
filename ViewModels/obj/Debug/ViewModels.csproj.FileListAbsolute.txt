@@ -1,0 +1,4 @@
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\obj\Debug\ViewModels.pdb
