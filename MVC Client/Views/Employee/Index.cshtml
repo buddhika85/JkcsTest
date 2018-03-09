@@ -7,7 +7,7 @@
 <h2>Employee Management</h2>
 
 <p>
-    @Html.ActionLink("Add New", "Add")
+    @Html.ActionLink("Add New", "Create")
 </p>
 
 <div>
@@ -61,12 +61,22 @@
             @Html.DisplayFor(modelItem => item.Department)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Permanent)
+            @*@Html.DisplayFor(modelItem => item.Permanent)*@
+            @{ 
+                if (item.Permanent)
+                {
+                    <div width="20px" hieght="20px" style="background-color:greenyellow">Yes</div>
+                }
+                else
+                {
+                    <div width="20px" hieght="20px" style="background-color:red">No</div>
+                }
+            }
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Edit", "Edit", new {  id=item.EmployeeId  }) |
+            @Html.ActionLink("Details", "Details", new {  id=item.EmployeeId  }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.EmployeeId  })
         </td>
     </tr>
 }

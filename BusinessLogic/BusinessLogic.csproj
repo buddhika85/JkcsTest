@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DepartmentService.cs" />
     <Compile Include="EmployeeService.cs" />
     <Compile Include="JkcsException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

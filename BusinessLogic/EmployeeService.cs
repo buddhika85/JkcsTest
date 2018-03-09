@@ -24,7 +24,7 @@ namespace BusinessLogic
             }
         }
 
-        #region get
+        #region crud
         public EmployeeViewModel GetById(int id)
         {
             try
@@ -62,6 +62,7 @@ namespace BusinessLogic
             try
             {
                 _employeeRepository.Insert(ConvertVmToModel(viewModel));
+                _uow.Save();
             }
             catch (Exception)
             {
@@ -74,6 +75,7 @@ namespace BusinessLogic
             try
             {
                 _employeeRepository.Update(ConvertVmToModel(viewModel));
+                _uow.Save();
             }
             catch (Exception)
             {
@@ -86,13 +88,16 @@ namespace BusinessLogic
             try
             {
                 _employeeRepository.Delete(id);
+                _uow.Save();
             }
             catch (Exception)
             {
                 throw new JkcsException() { ExcpetionMessage = "Save error", ExcpetionTime = DateTime.Now };
             }
         }
-        #endregion
+        #endregion crud
+
+        #region helpers
 
         private TBL_EMPLOYEE ConvertVmToModel(EmployeeViewModel viewModel)
         {
@@ -137,6 +142,8 @@ namespace BusinessLogic
                 throw;
             }
         }
+
+        #endregion helpers
 
     }
 }

@@ -11,34 +11,85 @@ namespace MVC_Client.Controllers
     [RoutePrefix("Emp")]
     public class EmployeeController : Controller
     {
-        // GET: Employee
-        public ActionResult Index()
+        static RestSharpClient<EmployeeViewModel> empRestSharpClient = null;
+        static RestSharpClient<DepartmentViewModel> depRestSharpClient = null;
+
+        public EmployeeController()
         {
-            var employees = new RestSharpClient<EmployeeViewModel>("http://localhost:57705/", "api/Employee").Get();
-            return View(employees);
+            if (empRestSharpClient == null)
+            { 
+                empRestSharpClient = new RestSharpClient<EmployeeViewModel>("http://localhost:57705/", "api/Employee/");
+                depRestSharpClient = new RestSharpClient<DepartmentViewModel>("http://localhost:57705/", "api/Department/");
+            }
         }
 
+        #region read
+
+        // GET: Employee
+        [HttpGet]
+        public ActionResult Index()
+        {
+            try
+            {
+                var employees = empRestSharpClient.Get();
+                return View(employees);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        [HttpGet]
         // GET: Employee/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            try
+            {
+                var employee = empRestSharpClient.Get(id);
+                return View(employee);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
+        #endregion read
+
+        #region create
         // GET: Employee/Create
+        [HttpGet]
         public ActionResult Create()
         {
-            return View();
+            try
+            {
+                var vm = new EmployeeViewModel
+                {
+                    Departments = depRestSharpClient.Get()
+                };
+                return View(vm);
+            }
+            catch (Exception)
+            {
+                throw;
+            }            
         }
 
         // POST: Employee/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(EmployeeViewModel employeeViewModel)
         {
             try
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    empRestSharpClient.Insert(employeeViewModel);
+                    return RedirectToAction("Index");                   
+                }
+                employeeViewModel.Departments = depRestSharpClient.Get();
+                return View(employeeViewModel);
             }
             catch
             {
@@ -46,21 +97,39 @@ namespace MVC_Client.Controllers
             }
         }
 
+        #endregion
+
+
         // GET: Employee/Edit/5
+        [HttpGet]
         public ActionResult Edit(int id)
         {
-            return View();
+            try
+            {
+                var employee = empRestSharpClient.Get(id);
+                employee.Departments = depRestSharpClient.Get();
+                return View(employee);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         // POST: Employee/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(EmployeeViewModel employeeViewModel)
         {
             try
             {
-                // TODO: Add update logic here
+                if(ModelState.IsValid)
+                {
+                    empRestSharpClient.Update(employeeViewModel);
+                    return RedirectToAction("Index");
+                }
+                employeeViewModel.Departments = depRestSharpClient.Get();
+                return View(employeeViewModel);
 
-                return RedirectToAction("Index");
             }
             catch
             {
@@ -69,6 +138,7 @@ namespace MVC_Client.Controllers
         }
 
         // GET: Employee/Delete/5
+        [HttpGet]
         public ActionResult Delete(int id)
         {
             return View();

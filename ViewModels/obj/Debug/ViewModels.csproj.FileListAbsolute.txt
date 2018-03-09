@@ -1,4 +1,9 @@
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\ViewModels.dll
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\EF.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\EntityFramework.dll
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\EF.pdb
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\bin\Debug\EntityFramework.xml
+C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\obj\Debug\ViewModels.dll
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\ViewModels\obj\Debug\ViewModels.pdb

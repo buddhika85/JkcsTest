@@ -39,7 +39,7 @@ namespace APIClient
             }
         }
 
-        public T Get(string primaryKey)
+        public T Get(int primaryKey)
         {
             try
             {
@@ -75,8 +75,42 @@ namespace APIClient
             }
         }
 
-        //void Update(T entity);
-        //void Delete(object primaryKey);
+        public void Update(T entity)
+        {
+            try
+            {
+                var request = new RestRequest(_controllerUrl, Method.PUT) { RequestFormat = DataFormat.Json };
+                request.AddBody(entity);
+
+                var response = _client.Execute<T>(request);
+
+                if (response.StatusCode != HttpStatusCode.OK)
+                    throw new Exception(response.ErrorMessage);
+            }
+            catch (Exception)
+            {
+                throw new JkcsException { ExcpetionTime = DateTime.Now, ExcpetionMessage = "Insert - " + _controllerUrl };
+            }
+        }
+
+        public void Delete(object primaryKey)
+        {
+            try
+            {
+                var request = new RestRequest(_controllerUrl, Method.DELETE) { RequestFormat = DataFormat.Json };
+                request.AddBody(primaryKey);
+
+                var response = _client.Execute<T>(request);
+
+                if (response.StatusCode != HttpStatusCode.OK)
+                    throw new Exception(response.ErrorMessage);
+            }
+            catch (Exception)
+            {
+                throw new JkcsException { ExcpetionTime = DateTime.Now, ExcpetionMessage = "Insert - " + _controllerUrl };
+            }
+        }
+
         //DbRawSqlQuery<TEntity> SQLQuery<TEntity>(string sql, params object[] parameters);
     }
 }
