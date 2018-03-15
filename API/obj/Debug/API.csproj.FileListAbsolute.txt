@@ -194,3 +194,12 @@ C:\Buddhika - work\applications\JkcsTest\API\bin\EF.pdb
 C:\Buddhika - work\applications\JkcsTest\API\bin\EF.dll.config
 C:\Buddhika - work\applications\JkcsTest\API\obj\Debug\API.dll
 C:\Buddhika - work\applications\JkcsTest\API\obj\Debug\API.pdb
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.dll
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.Web.Common.dll
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.Web.Mvc.dll
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.Web.WebApi.dll
+C:\Buddhika - work\applications\JkcsTest\API\bin\WebActivatorEx.dll
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.xml
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.Web.Common.xml
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.Web.Mvc.xml
+C:\Buddhika - work\applications\JkcsTest\API\bin\Ninject.Web.WebApi.xml
