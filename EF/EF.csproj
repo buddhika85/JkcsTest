@@ -70,19 +70,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeeMgmtModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201802260725459_InitialDatabase.cs" />
-    <Compile Include="Migrations\201802260725459_InitialDatabase.Designer.cs">
-      <DependentUpon>201802260725459_InitialDatabase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201802260727142_InitialDbPopulation.cs" />
-    <Compile Include="Migrations\201802260727142_InitialDbPopulation.Designer.cs">
-      <DependentUpon>201802260727142_InitialDbPopulation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201802260735370_InitialEmployeeDataPopulation.cs" />
-    <Compile Include="Migrations\201802260735370_InitialEmployeeDataPopulation.Designer.cs">
-      <DependentUpon>201802260735370_InitialEmployeeDataPopulation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\TBL_DEPARTMENT.cs" />
     <Compile Include="Model\TBL_EMPLOYEE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,17 +92,6 @@
       <DependentUpon>EmployeeMgmtModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802260725459_InitialDatabase.resx">
-      <DependentUpon>201802260725459_InitialDatabase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201802260727142_InitialDbPopulation.resx">
-      <DependentUpon>201802260727142_InitialDbPopulation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201802260735370_InitialEmployeeDataPopulation.resx">
-      <DependentUpon>201802260735370_InitialEmployeeDataPopulation.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="EmployeeMgmtModel.Context.tt">
