@@ -95,6 +95,7 @@ C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\API\bin\EF.pdb
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\API\obj\Debug\API.csprojResolveAssemblyReference.cache
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\API\obj\Debug\API.dll
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\API\obj\Debug\API.pdb
+C:\Buddhika - work\applications\JkcsTest\API\obj\Debug\API.csprojResolveAssemblyReference.cache
 C:\Buddhika - work\applications\JkcsTest\API\bin\roslyn\csc.exe
 C:\Buddhika - work\applications\JkcsTest\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Buddhika - work\applications\JkcsTest\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -191,6 +192,5 @@ C:\Buddhika - work\applications\JkcsTest\API\bin\DataAccess.pdb
 C:\Buddhika - work\applications\JkcsTest\API\bin\DataAccess.dll.config
 C:\Buddhika - work\applications\JkcsTest\API\bin\EF.pdb
 C:\Buddhika - work\applications\JkcsTest\API\bin\EF.dll.config
-C:\Buddhika - work\applications\JkcsTest\API\obj\Debug\API.csprojResolveAssemblyReference.cache
 C:\Buddhika - work\applications\JkcsTest\API\obj\Debug\API.dll
 C:\Buddhika - work\applications\JkcsTest\API\obj\Debug\API.pdb

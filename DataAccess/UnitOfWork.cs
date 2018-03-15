@@ -1,30 +1,29 @@
 ﻿using EF;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
-        private EmployeeMgmtEntities entities = null;
+        private DbContext entities = null;
         private bool disposed = false;
 
-        public UnitOfWork()
+        public UnitOfWork(DbContext contextInjected)
         {
-            if (entities == null)
-            {
-                entities = new EmployeeMgmtEntities();
-            }
+            entities = contextInjected;
+            //entities = new EmployeeMgmtEntities();               
         }
 
         #region properties
-        private GenericRepository<TBL_EMPLOYEE> employeeRepository;
-        private GenericRepository<TBL_DEPARTMENT> departmentRepository;
+        private IGenericRepository<TBL_EMPLOYEE> employeeRepository;
+        private IGenericRepository<TBL_DEPARTMENT> departmentRepository;
 
-        public GenericRepository<TBL_EMPLOYEE> EmployeeRepository
+        public IGenericRepository<TBL_EMPLOYEE> EmployeeRepository
         {
             get
             {
@@ -34,7 +33,7 @@ namespace DataAccess
             }
         }
 
-        public GenericRepository<TBL_DEPARTMENT> DepartmentRepository
+        public IGenericRepository<TBL_DEPARTMENT> DepartmentRepository
         {
             get
             {

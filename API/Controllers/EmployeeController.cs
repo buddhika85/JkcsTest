@@ -12,10 +12,9 @@ namespace API.Controllers
     public class EmployeeController : ApiController
     {
         EmployeeService employeeService = null;
-        public EmployeeController()
+        public EmployeeController(EmployeeService serviceInjected)
         {
-            if (employeeService == null)
-                employeeService = new EmployeeService();
+            employeeService = serviceInjected;
         }
 
         // GET: api/Employee

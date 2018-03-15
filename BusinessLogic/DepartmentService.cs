@@ -11,16 +11,13 @@ namespace BusinessLogic
 {
     public class DepartmentService
     {
-        UnitOfWork _uow = null;
-        GenericRepository<TBL_DEPARTMENT> _departmentRepository = null;
+        IUnitOfWork _uow = null;
+        IGenericRepository<TBL_DEPARTMENT> _departmentRepository = null;
         
-        public DepartmentService()
+        public DepartmentService(IUnitOfWork uowInjected)
         {
-            if (_uow == null)
-            {
-                _uow = new UnitOfWork();
-                _departmentRepository = _uow.DepartmentRepository;
-            }                
+            _uow = uowInjected;
+            _departmentRepository = _uow.DepartmentRepository;                            
         }
 
         public IQueryable<DepartmentViewModel> GetAll()

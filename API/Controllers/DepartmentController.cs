@@ -14,9 +14,9 @@ namespace API.Controllers
     {
         DepartmentService departmentService = null;
 
-        public DepartmentController()
+        public DepartmentController(DepartmentService serviceInjected)
         {
-            departmentService = new DepartmentService();
+            departmentService = serviceInjected;
         }
 
         public IHttpActionResult Get()

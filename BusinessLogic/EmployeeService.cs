@@ -11,17 +11,14 @@ namespace BusinessLogic
 {
     public class EmployeeService
     {
-        UnitOfWork _uow = null;
-        IRepository<TBL_EMPLOYEE> _employeeRepository = null;
+        IUnitOfWork _uow = null;
+        IGenericRepository<TBL_EMPLOYEE> _employeeRepository = null;
 
         // constructor
-        public EmployeeService()
-        {
-            if (_uow == null)
-            {
-                _uow = new UnitOfWork();
-                _employeeRepository = _uow.EmployeeRepository;
-            }
+        public EmployeeService(IUnitOfWork uowInjected)
+        {            
+            _uow = uowInjected;
+            _employeeRepository = _uow.EmployeeRepository;            
         }
 
         #region crud
