@@ -24,4 +24,3 @@ C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.Migrations.InitialEmplo
 C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.csproj.GenerateResource.Cache
 C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.dll
 C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.pdb
-C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
