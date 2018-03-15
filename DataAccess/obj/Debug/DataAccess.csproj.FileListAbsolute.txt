@@ -10,3 +10,16 @@ C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\bin\
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\DataAccess\obj\Debug\DataAccess.pdb
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\DataAccess.dll
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\DataAccess.pdb
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\EF.dll
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\EntityFramework.dll
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\EF.pdb
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\EF.dll.config
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\EntityFramework.xml
+C:\Buddhika - work\applications\JkcsTest\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Buddhika - work\applications\JkcsTest\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Buddhika - work\applications\JkcsTest\DataAccess\obj\Debug\DataAccess.dll
+C:\Buddhika - work\applications\JkcsTest\DataAccess\obj\Debug\DataAccess.pdb

@@ -4,6 +4,7 @@ using System.Data.Entity;
 
 namespace EF.Model
 {
+    [Table("TBL_DEPARTMENT")]
     public class TBL_DEPARTMENT
     {
         [Key]

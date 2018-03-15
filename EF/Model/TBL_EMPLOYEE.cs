@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace EF.Model
 {
+    [Table("TBL_EMPLOYEE")]
     public class TBL_EMPLOYEE
     {
         [Key]

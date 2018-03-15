@@ -11,3 +11,17 @@ C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.csproj.GenerateResource.Cache
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.dll
 C:\Users\buddhika\documents\visual studio 2015\Projects\JkcsTest\EF\obj\Debug\EF.pdb
+C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EF.dll.config
+C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EF.dll
+C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EF.pdb
+C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.dll
+C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.xml
+C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.Migrations.InitialDatabase.resources
+C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.Migrations.InitialDbPopulation.resources
+C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.Migrations.InitialEmployeeDataPopulation.resources
+C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.csproj.GenerateResource.Cache
+C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.dll
+C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.pdb
+C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
